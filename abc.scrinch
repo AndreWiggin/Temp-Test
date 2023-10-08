@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scrinch-env>
+    <backlogs>
+        <product-backlog name="scrinch-sprint"
+            description="project test" start-date="2023-01-25"
+            end-date="2023-01-25" maintenance-product-backlog="false">
+            <item-set name="ProjectItemSet #0" archive="false">
+                <item-link>0</item-link>
+                <item-link>1</item-link>
+            </item-set>
+        </product-backlog>
+    </backlogs>
+    <sprints duration-in-weeks="2">
+        <sprint name="Sprint #1">
+            <velocity>10.0</velocity>
+            <starting-date>2023-02-08</starting-date>
+            <end-date>2023-02-21</end-date>
+            <todo/>
+            <slow-downs/>
+            <sprint-team>
+                <member-link>User1</member-link>
+                <member-link>User2</member-link>
+            </sprint-team>
+        </sprint>
+        <sprint name="Sprint #0">
+            <velocity>10.0</velocity>
+            <starting-date>2023-01-25</starting-date>
+            <end-date>2023-02-07</end-date>
+            <todo>
+                <item-link>0</item-link>
+                <item-link>1</item-link>
+            </todo>
+            <slow-downs/>
+            <sprint-team/>
+        </sprint>
+    </sprints>
+    <items>
+        <item>
+            <id>0</id>
+            <title>update java version</title>
+            <description></description>
+            <request-type>Undefined</request-type>
+            <work-type>Undefined</work-type>
+            <business-value>34</business-value>
+            <work>13</work>
+            <target></target>
+            <visas>
+                <visa>
+                    <status>STBY</status>
+                </visa>
+                <visa>
+                    <status>EVAL</status>
+                    <date>2023-01-25</date>
+                    <member-nickname>User1</member-nickname>
+                    <comment></comment>
+                </visa>
+                <visa>
+                    <status>DONE</status>
+                    <date>2023-01-25</date>
+                    <member-nickname>User1</member-nickname>
+                    <comment></comment>
+                </visa>
+            </visas>
+        </item>
+        <item>
+            <id>1</id>
+            <title>update java version #2</title>
+            <description> (split #2)</description>
+            <request-type>Undefined</request-type>
+            <work-type>Undefined</work-type>
+            <business-value>34</business-value>
+            <work>21</work>
+            <visas>
+                <visa>
+                    <status>STBY</status>
+                </visa>
+                <visa>
+                    <status>EVAL</status>
+                    <date>2023-01-25</date>
+                    <member-nickname>User2</member-nickname>
+                    <comment></comment>
+                </visa>
+            </visas>
+        </item>
+    </items>
+    <targets/>
+    <members>
+        <member active="true">
+            <nickname>User1</nickname>
+            <internal-phone>6062</internal-phone>
+            <fullname>kuma</fullname>
+        </member>
+        <member active="true">
+            <nickname>User2</nickname>
+            <internal-phone></internal-phone>
+        </member>
+    </members>
+    <workTypes>
+        <workType>
+            <label>Undefined</label>
+        </workType>
+    </workTypes>
+    <originTypes>
+        <originType>
+            <label>Undefined</label>
+        </originType>
+    </originTypes>
+    <preferences>
+        <burn-up-chart>true</burn-up-chart>
+    </preferences>
+</scrinch-env>
